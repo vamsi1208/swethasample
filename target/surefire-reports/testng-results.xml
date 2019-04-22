@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on Advance element clicked]]>
+    </line>
+    <line>
+      <![CDATA[resetButton element clicked]]>
+    </line>
+    <line>
+      <![CDATA[dynamicCheckbox element clicked]]>
+    </line>
+    <line>
+      <![CDATA[addressCriteria element clicked]]>
+    </line>
+    <line>
+      <![CDATA[countParameter element clicked]]>
+    </line>
+    <line>
+      <![CDATA[Click on searchButton element clicked]]>
+    </line>
+    <line>
+      <![CDATA[Click on Advance element clicked]]>
+    </line>
+    <line>
+      <![CDATA[reset2Button element clicked]]>
+    </line>
+    <line>
+      <![CDATA[dynamicCheckbox element clicked]]>
+    </line>
+    <line>
+      <![CDATA[Click on search2Button element clicked]]>
+    </line>
+    <line>
+      <![CDATA[Click on Advance element clicked]]>
+    </line>
+    <line>
+      <![CDATA[reset2Button element clicked]]>
+    </line>
+    <line>
+      <![CDATA[dynamicCheckbox element clicked]]>
+    </line>
+    <line>
+      <![CDATA[Click on search2Button element clicked]]>
+    </line>
+  </reporter-output>
+  <suite name="Reltio_POC_Suite" duration-ms="160237" started-at="2018-01-11T15:19:30Z" finished-at="2018-01-11T15:22:10Z">
+    <groups>
+    </groups>
+    <test name="REltio_POC_Test" duration-ms="160237" started-at="2018-01-11T15:19:30Z" finished-at="2018-01-11T15:22:10Z">
+      <class name="com.Reltio.TestScripts.LoginWithInvalidCredentials">
+        <test-method status="PASS" signature="Login_With_Invalid_Credentials()[pri:0, instance:com.Reltio.TestScripts.LoginWithInvalidCredentials@79079097]" name="Login_With_Invalid_Credentials" duration-ms="9969" started-at="2018-01-11T20:49:30Z" finished-at="2018-01-11T20:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Invalid_Credentials -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Reltio.TestScripts.LoginWithInvalidCredentials@79079097]" name="getResult" is-config="true" duration-ms="6" started-at="2018-01-11T20:49:40Z" finished-at="2018-01-11T20:49:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_With_Invalid_Credentials status=SUCCESS method=LoginWithInvalidCredentials.Login_With_Invalid_Credentials()[pri:0, instance:com.Reltio.TestScripts.LoginWithInvalidCredentials@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.Reltio.TestScripts.LoginWithInvalidCredentials -->
+      <class name="com.Reltio.TestScripts.TestSearch">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Reltio.TestScripts.TestSearch@3b0090a4]" name="setUp" is-config="true" duration-ms="227" started-at="2018-01-11T20:49:30Z" finished-at="2018-01-11T20:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="launchSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Reltio.TestScripts.TestSearch@3b0090a4]" name="launchSearch" duration-ms="34309" started-at="2018-01-11T20:49:51Z" data-provider="SearchProvider" finished-at="2018-01-11T20:50:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HCO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[count.greater.or.equals]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Advance element clicked]]>
+            </line>
+            <line>
+              <![CDATA[resetButton element clicked]]>
+            </line>
+            <line>
+              <![CDATA[dynamicCheckbox element clicked]]>
+            </line>
+            <line>
+              <![CDATA[addressCriteria element clicked]]>
+            </line>
+            <line>
+              <![CDATA[countParameter element clicked]]>
+            </line>
+            <line>
+              <![CDATA[Click on searchButton element clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchSearch -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Reltio.TestScripts.TestSearch@3b0090a4]" name="getResult" is-config="true" duration-ms="1" started-at="2018-01-11T20:50:25Z" finished-at="2018-01-11T20:50:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchSearch status=SUCCESS method=TestSearch.launchSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Reltio.TestScripts.TestSearch@3b0090a4] output=Click on Advance element clicked]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="launchSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Reltio.TestScripts.TestSearch@3b0090a4]" name="launchSearch" duration-ms="27538" started-at="2018-01-11T20:50:25Z" data-provider="SearchProvider" finished-at="2018-01-11T20:50:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HCO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[count.less.or.equals]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Advance element clicked]]>
+            </line>
+            <line>
+              <![CDATA[reset2Button element clicked]]>
+            </line>
+            <line>
+              <![CDATA[dynamicCheckbox element clicked]]>
+            </line>
+            <line>
+              <![CDATA[Click on search2Button element clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchSearch -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Reltio.TestScripts.TestSearch@3b0090a4]" name="getResult" is-config="true" duration-ms="1" started-at="2018-01-11T20:50:53Z" finished-at="2018-01-11T20:50:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchSearch status=SUCCESS method=TestSearch.launchSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Reltio.TestScripts.TestSearch@3b0090a4] output=Click on Advance element clicked]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="launchSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Reltio.TestScripts.TestSearch@3b0090a4]" name="launchSearch" duration-ms="77751" started-at="2018-01-11T20:50:53Z" data-provider="SearchProvider" finished-at="2018-01-11T20:52:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GPO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[count.greater]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Advance element clicked]]>
+            </line>
+            <line>
+              <![CDATA[reset2Button element clicked]]>
+            </line>
+            <line>
+              <![CDATA[dynamicCheckbox element clicked]]>
+            </line>
+            <line>
+              <![CDATA[Click on search2Button element clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchSearch -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Reltio.TestScripts.TestSearch@3b0090a4]" name="getResult" is-config="true" duration-ms="1" started-at="2018-01-11T20:52:10Z" finished-at="2018-01-11T20:52:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchSearch status=SUCCESS method=TestSearch.launchSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Reltio.TestScripts.TestSearch@3b0090a4] output=Click on Advance element clicked]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Reltio.TestScripts.TestSearch@3b0090a4]" name="tearDown" is-config="true" duration-ms="8687" started-at="2018-01-11T20:52:10Z" finished-at="2018-01-11T20:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Reltio.TestScripts.TestSearch -->
+      <class name="com.Reltio.TestScripts.LoginWithValidCredentials">
+        <test-method status="PASS" signature="Login_With_Valid_Credentials()[pri:0, instance:com.Reltio.TestScripts.LoginWithValidCredentials@3bf7ca37]" name="Login_With_Valid_Credentials" duration-ms="10637" started-at="2018-01-11T20:49:40Z" finished-at="2018-01-11T20:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Valid_Credentials -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Reltio.TestScripts.LoginWithValidCredentials@3bf7ca37]" name="getResult" is-config="true" duration-ms="1" started-at="2018-01-11T20:49:51Z" finished-at="2018-01-11T20:49:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_With_Valid_Credentials status=SUCCESS method=LoginWithValidCredentials.Login_With_Valid_Credentials()[pri:0, instance:com.Reltio.TestScripts.LoginWithValidCredentials@3bf7ca37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.Reltio.TestScripts.LoginWithValidCredentials -->
+    </test> <!-- REltio_POC_Test -->
+  </suite> <!-- Reltio_POC_Suite -->
+</testng-results>

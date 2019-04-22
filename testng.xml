@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Reltio_POC_Suite">
+  <test name="REltio_POC_Test">
+
+    <classes>
+        <class name="com.Reltio.TestScripts.LoginWithInvalidCredentials"/>
+        <class name="com.Reltio.TestScripts.LoginWithValidCredentials"/>
+        <class name="com.Reltio.TestScripts.TestSearch"/>
+        
+        
+
+    
+    </classes>
+  </test> <!-- REltio_POC_Test -->
+</suite> <!-- Reltio_POC_Suite -->

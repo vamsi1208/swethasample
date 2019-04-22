@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Reltio_POC_Suite]" verbose="0">
+  <test name="REltio_POC_Test(failed)">
+    <classes>
+      <class name="com.Reltio.TestScripts.AdvancedSearchWithResults">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="Advanced_Search_with_Results"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Reltio.TestScripts.AdvancedSearchWithResults -->
+      <class name="com.Reltio.TestScripts.AdvancedSearchWithZeroResults">
+        <methods>
+          <include name="Advanced_Search_With_Zero_Results"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.Reltio.TestScripts.AdvancedSearchWithZeroResults -->
+      <class name="com.Reltio.TestScripts.LoginWithInvalidCredentials">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.Reltio.TestScripts.LoginWithInvalidCredentials -->
+      <class name="com.Reltio.TestScripts.LoginWithValidCredentials">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.Reltio.TestScripts.LoginWithValidCredentials -->
+    </classes>
+  </test> <!-- REltio_POC_Test(failed) -->
+</suite> <!-- Failed suite [Reltio_POC_Suite] -->

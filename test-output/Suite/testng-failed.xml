@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Reltio.TestScripts.Login_Execution">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Reltio.TestScripts.Login_Execution -->
+      <class name="com.Reltio.TestScripts.Search_Execution">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.Reltio.TestScripts.Search_Execution -->
+      <class name="com.Reltio.TestScripts.Zeo_Search_Result_Execution">
+        <methods>
+          <include name="Exec_Inv_Search"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.Reltio.TestScripts.Zeo_Search_Result_Execution -->
+      <class name="com.Reltio.TestScripts.Dashboard_Execution">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.Reltio.TestScripts.Dashboard_Execution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
