@@ -25,7 +25,7 @@ public class DriverClass
 		{
 			if(driver==null)
 			{
-				System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resources\\Drivers\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "F:\\Drivers\\chromedriver_win32 (1)");
 				//driver=new ChromeDriver();
 				
 				ChromeOptions Chr_obj = new ChromeOptions();    
